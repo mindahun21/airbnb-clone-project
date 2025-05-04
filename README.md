@@ -57,49 +57,49 @@ Oversees the deployment, automation, and monitoring of the backend application. 
 ### 🧪 QA Engineer
 Ensures the backend functionalities are tested thoroughly and meet both functional and non-functional requirements. QA engineers write automated test scripts, conduct manual tests, and track defects.
 
-##🧰 Technology Stack Details
-###🐍 Django
+## 🧰 Technology Stack Details
+### 🐍 Django
 Purpose: Build the core backend logic and serve RESTful APIs.
 
-###🛡️ Django REST Framework (DRF)
+### 🛡️ Django REST Framework (DRF)
 Purpose: Develop secure and customizable REST APIs.
 
-###🐘 PostgreSQL
+### 🐘 PostgreSQL
 Purpose: Store and manage all persistent data.
 
-###🧬 GraphQL
+### 🧬 GraphQL
 Purpose: Provide efficient and customizable data querying.
 
-###📩 Celery
+### 📩 Celery
 Purpose: Handle background tasks like sending notifications and processing payments.
 
-###🔁 Redis
+### 🔁 Redis
 Purpose: Support Celery and improve performance via caching.
 
-###📦 Docker
+### 📦 Docker
 Purpose: Create consistent development and production environments.
 
-###🚀 CI/CD Pipelines
+### 🚀 CI/CD Pipelines
 Purpose: Automate testing and deployment to ensure code quality and delivery speed.
 
 
-##🗂️ Database Design
-###👥 Users
+## 🗂️ Database Design
+### 👥 Users
 -Represents individuals using the platform, either as guests or hosts.
 
-###🏘️ Properties
+### 🏘️ Properties
 -Represents property listings created by hosts.
 
-###📆 Bookings
+### 📆 Bookings
 -Represents reservations made by users.
 
-###💰 Payments
+### 💰 Payments
 -Represents transaction records for completed bookings.
 
-###⭐ Reviews
+### ⭐ Reviews
 -Represents user feedback on properties.
 
-###🧷 Entity Relationships Summary
+### 🧷 Entity Relationships Summary
 -One User ➝ Many Properties
 
 -One User ➝ Many Bookings
@@ -112,58 +112,58 @@ Purpose: Automate testing and deployment to ensure code quality and delivery spe
 
 -One Booking ➝ One Payment
 
-##📋 Feature Breakdown
-###👤 User Management
+## 📋 Feature Breakdown
+### 👤 User Management
 Handles registration, login, and profile updates.
 
-###🏡 Property Management
+### 🏡 Property Management
 Allows hosts to create and manage listings.
 
-###📅 Booking System
+### 📅 Booking System
 Manages property reservations and related workflows.
 
-###💳 Payment Processing
+### 💳 Payment Processing
 Manages and records secure transactions.
 
-###📝 Review System
+### 📝 Review System
 Enables users to review and rate properties.
 
-###📖 API Documentation
+### 📖 API Documentation
 Includes OpenAPI and GraphQL schema definitions.
 
-###⚡ Data Optimization
+### ⚡ Data Optimization
 Uses indexing and caching for efficient performance.
 
-###🔐 Security & Authorization
+### 🔐 Security & Authorization
 Includes best practices for authentication and access control.
 
-##🛡️ API Security
-###🪪 Authentication
+## 🛡️ API Security
+### 🪪 Authentication
 Uses JWT for stateless authentication.
 
-###🧾 Authorization
+### 🧾 Authorization
 Enforces role-based access control.
 
-###⏱️ Rate Limiting
+### ⏱️ Rate Limiting
 Prevents abuse via throttling policies.
 
-###🔐 Data Encryption
+### 🔐 Data Encryption
 Protects sensitive data and ensures secure communication.
 
-###🧹 Input Validation
+### 🧹 Input Validation
 Prevents attacks through strict validation and sanitization.
 
-###🧭 Error Handling
+### 🧭 Error Handling
 Logs securely and avoids exposing internals in responses.
 
-##⚙️ CI/CD Pipeline
-###🧪 What is CI/CD?
+## ⚙️ CI/CD Pipeline
+### 🧪 What is CI/CD?
 A process to automate building, testing, and deploying code.
 
-###🚧 Why It Matters
+### 🚧 Why It Matters
 Ensures code quality, stability, and fast delivery of features.
 
-###🧰 Tools Used
+### 🧰 Tools Used
 GitHub Actions
 
 Docker & Docker Compose
